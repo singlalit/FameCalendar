@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FameCalendar</title>
-    
+
     <!-- Link to external CSS -->
     <link rel="stylesheet" href="style.css">
 
     <!-- SheetJS Library for reading Excel files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+    <!-- PapaParse Library for reading CSV files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
 </head>
 <body>
     <div class="container">
         <h1>FameCalendar</h1>
         <p>Enter a date to check if it's a celebrity's birthday!</p>
-        
+
         <input type="date" id="dateInput">
         <button onclick="checkBirthday()">Check</button>
 
